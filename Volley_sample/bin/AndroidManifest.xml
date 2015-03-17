@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="me.storm.volley"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <application
+        android:name=".VolleyApp"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".ui.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.SimpleRequestActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".ui.JsonRequestActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".ui.ParamsRequestActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".ui.GsonRequestActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".ui.ImageLoadingActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".ui.list.ListViewAct"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".ui.list.VolleyListViewAct"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".ui.myvolley.MyVolley"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".ui.myvolley.VolleyDemo1"
+            android:label="VolleyDemo1" >
+        </activity>
+        
+        <activity
+            android:name=".ui.myvolley.MyVolleyDemo"
+            android:label="MyVolleyDemo" >
+        </activity>
+        
+        <activity
+            android:name=".ui.myvolley.WaterfallActivity"
+            android:label="WaterfallActivity" >
+        </activity>
+        
+        <activity
+            android:name=".ui.myvolley.ImageLoaderActivity"
+            android:label="ImageLoaderActivity" >
+        </activity>
+    </application>
+
+</manifest>

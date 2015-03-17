@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btn_my"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="自定义Request" />
+
+        <TextView
+            android:id="@+id/tx_my"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_image_loading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="一般图片控件" >
+        </Button>
+
+        <ImageView
+            android:id="@+id/iv_image1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_image1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="自定义图片控件" >
+        </Button>
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/iv_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_image2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="自定义图片控件2" />
+
+        <ImageView
+            android:id="@+id/iv_image2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_json1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Json接口调用" />
+
+        <TextView
+            android:id="@+id/iv_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="StringRequest使用" />
+
+        <TextView
+            android:id="@+id/message_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <WebView
+            android:id="@+id/webView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+</ScrollView>

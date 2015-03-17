@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/bt_json"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="json请求" >
+    </Button>
+    <Button
+        android:id="@+id/bt_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="图片请求" >
+    </Button>
+    <Button
+        android:id="@+id/bt_netimage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="网络图片类" >
+    </Button>
+    <Button
+        android:id="@+id/bt_imageloder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ImageLoder图片请求" >
+    </Button>
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/netIV_volley"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/iv_volley"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_volley"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
